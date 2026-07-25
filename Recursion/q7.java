@@ -1,7 +1,7 @@
 //Print Fibonacci Series up to Nth term
 import java.util.Scanner;
 
-public class Main {
+public class q7 {
 
   
     public static int fibonacci(int n) {

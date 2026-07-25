@@ -6,7 +6,7 @@ Output: [1, 3, 4, 5, 7]
 Explanation: 1 <= 3 <= 4 <= 5 <= 7.
 Thus the array is sorted in non-decreasing order.
 */
-package shorting;
+package sorting;
 
 public class q1 {
     public int[] selectionSort(int[] nums) {
