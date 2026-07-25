@@ -1,5 +1,5 @@
 //Check if the given String is Palindrome or not
-package Recursion;
+
 
 class Solution {
 

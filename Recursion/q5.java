@@ -1,5 +1,5 @@
 //Reverse an array
-package Recursion;
+
 class Solution {
 
     public void reverse(int[] arr, int n) {
