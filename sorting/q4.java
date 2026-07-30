@@ -1,3 +1,17 @@
+package sorting;
+
+/*
+Merge Sorting
+Example 1
+
+Input: nums = [7, 4, 1, 5, 3]
+
+Output: [1, 3, 4, 5, 7]
+
+Explanation: 1 <= 3 <= 4 <= 5 <= 7.
+
+Thus the array is sorted in non-decreasing order.
+*/
 import java.util.*;
 
 public class q4 {
