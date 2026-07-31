@@ -1,3 +1,13 @@
+/*
+Check if Array Is Sorted and Rotated
+Example 1:
+
+Input: nums = [3,4,5,1,2]
+Output: true
+Explanation: [1,2,3,4,5] is the original sorted array.
+You can rotate the array by x = 2 positions to begin on the element of value 3: [3,4,5,1,2].
+*/
+
 import java.util.Scanner;
 
 public class q5 {
