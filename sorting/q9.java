@@ -1,7 +1,12 @@
+/*
+Second Largest Element
+Example 1
+Input: nums = [8, 8, 7, 6, 5]
+Output: 7
+Explanation:
+The largest value in nums is 8, the second largest is 7
+*/
 
-/**
- * q9
- */
 public class q9 {
     public int secondLargestElement(int[] nums) {
         int largest = nums[0] ;
