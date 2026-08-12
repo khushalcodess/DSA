@@ -13,25 +13,19 @@ Both the zeroes are moved to the end and the order of the other elements stay th
 import java.util.Arrays;
 
 public class q14 {
-    public static void moveZeroes(int[] nums) {
+    public void moveZeroes(int[] nums) {
 
-        int zero = 0;
-        int count = 0;
+        int j = 0;
 
-        // Move non-zero elements to the front
         for (int i = 0; i < nums.length; i++) {
 
-            if (nums[i] == 0) {
-                zero++;
-            } else {
-                nums[count] = nums[i];
-                count++;
-            }
-        }
+            if (nums[i] != 0) {
+                int temp = nums[i];
+                nums[i] = nums[j];
+                nums[j] = temp;
 
-        // Put zeroes at the end
-        for (int k = nums.length - zero; k < nums.length; k++) {
-            nums[k] = 0;
+                j++;
+            }
         }
     }
 
