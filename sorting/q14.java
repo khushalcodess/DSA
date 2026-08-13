@@ -13,7 +13,7 @@ Both the zeroes are moved to the end and the order of the other elements stay th
 import java.util.Arrays;
 
 public class q14 {
-    public void moveZeroes(int[] nums) {
+    public static void moveZeroes(int[] nums) {
 
         int j = 0;
 
