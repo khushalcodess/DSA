@@ -5,79 +5,58 @@ Output: [1, 2, 3, 4, 5, 7]
 Explanation:
 The elements 1, 2 are common to both, 3, 4, 5 are from nums1 and 7 is from nums2
 */
-import java.util.*;
+import java.util.ArrayList;
 
-public class Main {
-
-    public static int[] unionArray(int[] a, int[] b) {
-
-        int n1 = a.length;
-        int n2 = b.length;
-
-        int i = 0;
-        int j = 0;
-
-        ArrayList<Integer> unionArr = new ArrayList<>();
-
-        while (i < n1 && j < n2) {
-
-            if (a[i] <= b[j]) {
-
-                if (unionArr.size() == 0 ||
-                    unionArr.get(unionArr.size() - 1) != a[i]) {
-
-                    unionArr.add(a[i]);
+public class q17 {
+      public static int[] unionArray(int[] nums1, int[] nums2) {
+         int n1 = nums1.length;
+         int n2 = nums2.length;
+         int i = 0;
+         int j = 0;
+        ArrayList<Integer> Temp = new ArrayList<>();
+         while(i<n1 && j<n2){
+            if(nums1[i]<=nums2[j]){
+                if(Temp.size() == 0||Temp.get(Temp.size()-1)!=nums1[i]){
+                    Temp.add(nums1[i]);
                 }
-
                 i++;
-
-            } else {
-
-                if (unionArr.size() == 0 ||
-                    unionArr.get(unionArr.size() - 1) != b[j]) {
-
-                    unionArr.add(b[j]);
+            }
+            else{
+               if(Temp.size() == 0||Temp.get(Temp.size()-1)!=nums2[j]){
+                    Temp.add(nums2[j]);
                 }
-
                 j++;
             }
+         }
+         while(j < n2){
+           if(Temp.size() == 0||Temp.get(Temp.size()-1)!=nums2[j]){
+                    Temp.add(nums2[j]);
+                }
+                j++;
+         }
+           while(i < n1){
+             if(Temp.size() == 0||Temp.get(Temp.size()-1)!=nums1[i]){
+                    Temp.add(nums1[i]);
+                }
+                i++;
+         }
+         int[] arr = new int[Temp.size()];
+        for(int k = 0;k<Temp.size();k++){
+            arr[k] = Temp.get(k);
         }
-
-        while (i < n1) {
-            if (unionArr.size() == 0 ||
-                unionArr.get(unionArr.size() - 1) != a[i]) {
-
-                unionArr.add(a[i]);
-            }
-            i++;
-        }
-
-        while (j < n2) {
-            if (unionArr.size() == 0 ||
-                unionArr.get(unionArr.size() - 1) != b[j]) {
-
-                unionArr.add(b[j]);
-            }
-            j++;
-        }
-
-        // Convert ArrayList<Integer> to int[]
-        int[] result = new int[unionArr.size()];
-
-        for (int k = 0; k < unionArr.size(); k++) {
-            result[k] = unionArr.get(k);
-        }
-
-        return result;
+        return arr;
     }
 
     public static void main(String[] args) {
-
-        int[] a = {1, 2, 3, 4, 5};
-        int[] b = {2, 3, 4, 6, 7};
-
+        
+        int[] a = {1, 2, 2, 3, 4};
+        int[] b = {2, 3, 5, 6};
         int[] result = unionArray(a, b);
+        
+        System.out.println("Union of two arrays:");
 
-        System.out.println(Arrays.toString(result));
+         for (int i = 0; i < result.length; i++) {
+            System.out.print(result[i] + " ");
+        }
     }
 }
