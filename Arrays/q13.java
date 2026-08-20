@@ -8,9 +8,9 @@ Explanation:
 
 nums contains 0, 1, 2, 3, 4 thus leaving 5 as the only missing number in the range [0, 5]
 */
-package sorting;
+package Arrays;
 
-public class q19 {
+public class q13 {
 
      public static int missingNumber(int[] arr, int N) {
 

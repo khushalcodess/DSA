@@ -8,12 +8,12 @@ Explanation:
 
 nums contains 0, 1, 2, 3, 4 thus leaving 5 as the only missing number in the range [0, 5]
 */
-package sorting;
+package Arrays;
 
 /**
  * q18
  */
-public class q18 {
+public class q12 {
      public static  int missingNumber(int[] nums) {
 
         for (int i = 0; i <= nums.length; i++) {

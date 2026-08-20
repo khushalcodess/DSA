@@ -1,3 +1,4 @@
+package Arrays;
 /*
 Move Zeros to End
 Example 1
@@ -12,7 +13,7 @@ Both the zeroes are moved to the end and the order of the other elements stay th
 */
 import java.util.Arrays;
 
-public class q14 {
+public class q7 {
     public static void moveZeroes(int[] nums) {
 
         int j = 0;

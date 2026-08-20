@@ -9,9 +9,9 @@ Explanation:
 
 nums contains 0, 1, 2, 3, 4 thus leaving 5 as the only missing number in the range [0, 5]
 */
-package sorting;
+package Arrays;
 
-public class q20 {
+public class q14 {
     public static  int missingNumber(int[] nums) {
         int sum = (nums.length)*(nums.length + 1)/2;
         int s2 = 0;

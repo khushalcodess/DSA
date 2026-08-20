@@ -1,3 +1,4 @@
+package Arrays;
 /*
 Remove duplicates from sorted array
 Example 1
@@ -13,7 +14,7 @@ Resulting array = [0, 3, 5, 6, _, _]
 There are 4 distinct elements in nums and the elements marked as _ can have any value
 */
 
-class q11 {
+class q4 {
 
     public int removeDuplicates(int[] nums) {
 
@@ -32,7 +33,7 @@ class q11 {
 
     public static void main(String[] args) {
 
-        q11 obj = new q11();
+        q4 obj = new q4();
 
         int[] nums = {0, 0, 3, 3, 5, 6};
 

@@ -1,3 +1,4 @@
+package Arrays;
 /*
 Left Rotate Array by K Places
 Input: nums = [1, 2, 3, 4, 5, 6], k = 2

@@ -1,3 +1,4 @@
+package Arrays;
 /*
 Linear Search
 Input: nums = [2, 3, 4, 5, 3], target = 3
@@ -6,7 +7,7 @@ Explanation:
 The first occurence of 3 in nums is at index 1
 */
 
-public class q15 {
+public class q8 {
 
     public static int linearSearch(int[] nums, int target) {
 

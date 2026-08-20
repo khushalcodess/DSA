@@ -5,9 +5,9 @@ Output : 3
 Explanation : The integer 3 has appeared only once.
 */
 
-package sorting;
+package Arrays;
 
-public class q22 {
+public class q16 {
     public static  int singleNumber(int[] nums) {
         int xor =0;
 

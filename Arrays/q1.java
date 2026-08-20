@@ -1,3 +1,4 @@
+package Arrays;
 /*
 Largest Element
 Given an array of integers nums, return the value of the largest element in the array
@@ -12,7 +13,7 @@ import java.util.Arrays;
 /**
  * q8
  */
-public class q8 {
+public class q1 {
      public int largestElement(int[] nums) {
         int num = nums[0];
         for(int i = 1 ; i<nums.length;i++){
@@ -24,7 +25,7 @@ public class q8 {
     }
     public static void main(String[] args) {
         int[] nums = {3,3,6,1};
-        q8 obj = new q8();
+        q1 obj = new q1();
         obj.largestElement(nums);
         System.out.println("Sorted Array: " + Arrays.toString(nums));
     }

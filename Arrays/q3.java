@@ -1,3 +1,4 @@
+package Arrays;
 /*
 Check if the Array is Sorted II
 Example 1
@@ -11,7 +12,7 @@ Explanation : For all i (1 <= i <= 4) it holds nums[i] <= nums[i+1], hence it is
 
 import java.util.ArrayList;
 
-public class q10 {
+public class q3 {
 
     public static boolean isSorted(ArrayList<Integer> nums) {
 

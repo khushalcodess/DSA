@@ -1,3 +1,4 @@
+package Arrays;
 /*
 Union of two sorted arrays
 Input: nums1 = [1, 2, 3, 4, 5], nums2 = [1, 2, 7]
@@ -7,7 +8,7 @@ The elements 1, 2 are common to both, 3, 4, 5 are from nums1 and 7 is from nums2
 */
 import java.util.ArrayList;
 
-public class q17 {
+public class q11 {
       public static int[] unionArray(int[] nums1, int[] nums2) {
          int n1 = nums1.length;
          int n2 = nums2.length;
