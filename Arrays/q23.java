@@ -1,5 +1,6 @@
 /*
 optimal
+Dutch National Flag Agorithm
 Sort an array of 0's 1's and 2's
 Example 1
 Input: nums = [1, 0, 2, 1, 0]

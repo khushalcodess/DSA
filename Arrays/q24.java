@@ -1,5 +1,6 @@
 /*
 Majority Element-I
+Brute Force Approach
 Example 1
 
 Input: nums = [7, 0, 0, 1, 7, 7, 2, 7, 7]
