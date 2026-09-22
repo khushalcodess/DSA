@@ -18,9 +18,7 @@ public class q2 {
                 seclargest = largest;
                 largest = nums[i];
             }
-            else if(nums[i]>seclargest && nums[i]!=largest){
-                seclargest = nums[i];
-            }
+            
         }
         return seclargest;
     }
