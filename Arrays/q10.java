@@ -24,8 +24,7 @@ public class q10 {
 
             if (a[i] <= b[j]) {
 
-                if (unionArr.size() == 0 ||
-                    unionArr.get(unionArr.size() - 1) != a[i]) {
+                if (unionArr.size() == 0 || unionArr.get(unionArr.size() - 1) != a[i]) {
 
                     unionArr.add(a[i]);
                 }
