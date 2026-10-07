@@ -1,5 +1,5 @@
 /*
-Missing Numbe
+Missing Numbe with brute approach
 Question:
 Given an array containing n distinct numbers from the range [0, n], find the only number missing from the array.
 Input:
