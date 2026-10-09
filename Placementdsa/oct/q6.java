@@ -1,3 +1,12 @@
+/*
+Missing Numbe with optimal approach
+Question:
+Given an array containing n distinct numbers from the range [0, n], find the only number missing from the array.
+Input:
+nums = [3, 0, 1]
+Output:
+2
+*/
 package Placementdsa.oct;
 
 public class q6 {
